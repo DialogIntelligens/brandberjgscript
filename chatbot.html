@@ -1,0 +1,12 @@
+<!-- Chat button -->
+<button id="chat-button" onclick="toggleChatWindow()" style="cursor: pointer; position: fixed; bottom: 20px; right: 20px; background: none; border: none; z-index: 401;">
+  <img src="http://dialogintelligens.dk/wp-content/uploads/2024/04/messageIcon.png" alt="Chat with us" style="width: 60px; height: 60px; transition: opacity 0.3s;">
+</button>
+
+<!-- Speech balloon -->
+<div id="speech-balloon">
+  <button id="close-balloon" style="position: absolute; top: 5px; right: 5px; background-color: transparent; border: none; font-size: 16px; cursor: pointer;">&times;</button>
+</div>
+
+<!-- Chat iframe -->
+<iframe id="chat-iframe" src="https://brandbjerg.onrender.com/" style="display: none; position: fixed; bottom: 3vh; right: 2vw; width: 50vh; height: 90vh; border: none; z-index: 40000;"></iframe>
